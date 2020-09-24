@@ -2,10 +2,16 @@ Package: coast
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: person("Stierhoff", "Kevin", email =
+ "Kevin.Stierhoff@noaa.gov", role = c("aut", "cre"))
+Maintainer: Kevin L. Stierhoff <kevin.stierhoff@noaa.gov>
+Description: A collection of functions used to analyze data from surveys using the collaborative optical-acoustic survey technique (COAST).
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    dplyr,
+    fs,
+    data.table,
+    lubridate
+RoxygenNote: 7.1.1
